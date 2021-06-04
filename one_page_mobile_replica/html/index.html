@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Final Test</title>
+
+<!--<link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">-->
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+
+</head>
+<body>
+	<header>
+		<div class="contentpart">
+			<img src="./images/text-logo.png" alt="demo-app-logo" />
+			<ul>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">FEATURES</a></li>
+				<li><a href="#">REVIEWS</a></li>
+				<li><a href="#">SCREENSHOT</a></li>
+				<li><a href="#">VIDEO</a></li>
+				<li><a href="#">CONTACT</a></li>
+			</ul>
+		</div>
+	</header>
+	<div class="banner">
+		<div class="contentpart">
+			<div>
+				<img src="./images/logo.png" alt="logo" />
+				<p>Cool & Stylish <br><strong> Mobile App </strong> Showcase</p>
+				<a class="click" href="#">Download App</a>
+			</div>
+				<img id="mobile" src="./images/mobile-pic.png" alt="mobile" />
+		</div>
+	</div>
+	<div class="awesome">
+		<div class="contentpart">
+			<p class="heading"><strong>AWESOME</strong> FEATURES</p>
+			<p class="smalldetail">Demo App offers a wide range of features with Beautiful Design & Great Functionality</p>
+			
+			<div class="wrapper">
+				<div class="features">
+						<div>
+								<img src="./images/design-icon.png" alt="design-icon" />
+						</div>
+						<h3>BEAUTIFUL DESIGN</h3>
+						<p>Cras ultricies ligula sed magna dictum porta. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+				</div>
+				<div class="features1">
+						<div>
+								<img src="./images/browse-file-icon.png" alt="browse-file-icon" />
+						</div>
+						<h3>BROWSE FILE</h3>
+						<p>Cras ultricies ligula sed magna dictum porta. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+				</div>
+
+				<img id="center-icon" src="./images/center-icon.png" alt="center-icon" />
+			
+				<div class="features" id="bottom1">
+						<div>
+								<img id="camera" src="./images/share-photo-icon.png" alt="share-photo-icon" />
+						</div>
+						<h3>SHARE PHOTO</h3>
+						<p>Cras ultricies ligula sed magna dictum porta. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+				</div>
+				<div class="features1" id="bottom2">
+						<div>
+								<img id="attach" src="./images/file-attachment-icon.png" alt="file-attachment-icon" />
+						</div>
+						<h3>FILE ATTACHMENT</h3>
+						<p>Cras ultricies ligula sed magna dictum porta. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="life">
+		<div class="contentpart">
+			<p class="heading"><strong>MAKE YOUR LIFE SIMPLER WITH </strong> DEMO APP</p>
+			<p class="smalldetail"> Demo App offers a wide range of features with Beautiful Design & Great Functionality</p>
+			<p id="extradetail">Vivamus suscipit tortor eget felis porttitor volutpat. Vivamus magna justo, lacinia eget <br> consectetur sed, convallis at tellus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. <br>Cras ultricies ligula sed magna dictum porta. Donec sollicitudin molestie malesuada. Lorem <br> ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			<ul>
+				<li>RESTAURANT/BAR</li>
+				<li>QUICK SERVICE RETAIL (QSR)</li>
+				<li>HEALTH CARE</li>
+				<li>ENTERTAINMENT</li>
+				<li>MANY MORE APPS</li>
+				<li>CAR DEALERSHIP</li>
+			</ul>
+			<img id="demo-app-pic" src="./images/demo-app-pic.png" alt="demo-app-pic" />
+		</div>
+	</div>
+	<div class="screenshot">
+		<div class="contentpart">
+			<p class="heading"><strong>APP</strong> SCREENSHOT</p>
+			<p class="smalldetail"> Demo App offers a wide range of features with Beautiful Design & Great Functionality</p>
+
+			
+			<img id="image1" src="./images/img1.png" alt="img1" />
+			<img id="image2" src="./images/img2.png" alt="img2" />
+			<img id="image3" src="./images/img3.png" alt="img3" />
+			
+			<div id="slidebar">
+			<span class="round" id="r1" onclick="return round1()"></span>
+			<span class="round" id="r2" onclick="return round2()"></span>	
+			<span class="round" id="r3" onclick="return round3()"></span>
+			</div>
+		</div>
+	</div>
+
+	<div class="awesome">
+		<div class="contentpart">
+			<p class="heading"><strong>WATCH DEMO</strong> VIDEO</p>
+			<p class="smalldetail"> Demo App offers a wide range of features with Beautiful Design & Great Functionality</p>
+
+			<video controls poster="./images/video-pic.png">
+				<source src="./video/video.mp4" type="video/mp4">
+			</video>
+		</div>
+	</div>
+	<div class="life">
+		<div class="contentpart">
+			<div class="user">
+				<img id="download" src="./images/download-app.png" alt="mobile-images" />
+				<p>Select your device platform and get <br>download started</p>
+				<a class="click" href="#">Apple User</a>
+				<a class="click" id="click1" href="#">Android User</a>	
+			</div>
+		</div>
+	</div>
+	<div class="contactus">
+		<div class="contentpart">
+			<p class="heading"><strong>CONTACT</strong> US</p>
+
+			<div class="form">
+				<form name="information" onsubmit="return validation();">
+				<input name="Name" type="text" placeholder="Name" required />
+				<input name="Email" type="text" placeholder="Email"required/>
+				<input type="text" class="addressbox" placeholder="Address" required />
+				<input type="text" class="addressbox" />
+				<input type="text" class="addressbox" />
+			
+				<button class="click" href="#">SEND MESSAGE</button>
+				</form>
+			</div>
+
+			<div class="detail">
+				<p>DieSachbearbeiter<br>Schonhauser Attee 167c<br> 10435 Berlin<br> Germany</p>
+				<p>Telephone:<a href="tel: +49 30 47373795"> +49 30 47373795</a></p><p id="email">Email:<a href="mailto:moin@blindtextgenerator.de"> <span>moin@blindtextgenerator.de<span></a></p>
+				
+				<div>
+					<img src="./images/facebook-ico.png" alt="facebook-icon">
+					<img src="./images/twitter-icon.png" alt="twitter-icon">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="contentpart">
+			<p>&#9400;2021,All Rights Reserved</p>
+		</div>
+	</footer>
+
+</body>
+
+
+<script type="text/javascript">
+function validation()
+{
+	var name=document.information.Name.value;
+	var email=document.information.Email.value;
+
+	if(name.length >= 20)
+	{
+		alert("Name must be in 20 characters");
+		return false;
+	}
+}
+
+function round1(){
+	if(document.getElementById("r1").style.background=='black')
+	{
+		document.getElementById("r1").style.background='white';
+	}
+	else{
+		document.getElementById("image1").src='./images/img1.png';
+		document.getElementById("image2").src='./images/img2.png';
+		document.getElementById("image3").src='./images/img3.png';
+		document.getElementById("r1").style.background='black';
+		document.getElementById("r2").style.background='white';
+		document.getElementById("r3").style.background='white';
+	}
+}
+function round2(){
+	if(document.getElementById("r2").style.background=='black')
+	{
+		document.getElementById("r2").style.background='white';
+	}
+	else{
+		document.getElementById("image1").src='./images/img4.png';
+		document.getElementById("image2").src='./images/img5.png';
+		document.getElementById("image3").src='./images/img6.png';
+		document.getElementById("r2").style.background='black';
+		document.getElementById("r1").style.background='white';
+		document.getElementById("r3").style.background='white';
+	}
+}
+function round3(){
+	if(document.getElementById("r3").style.background=='black')
+	{
+		document.getElementById("r3").style.background='white';
+	}
+	else{
+		document.getElementById("image1").src='./images/img7.png';
+		document.getElementById("image2").src='./images/img8.png';
+		document.getElementById("image3").src='./images/img9.png';
+		document.getElementById("r3").style.background='black';
+		document.getElementById("r1").style.background='white';
+		document.getElementById("r2").style.background='white';
+	}
+}
+</script>
+</html> 
